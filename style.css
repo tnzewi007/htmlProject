@@ -1,8 +1,61 @@
+
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 #about {
     background-color: #15233E;
-    color: #FFFFFF;
+    margin-top: 0;
 }
+
+#about p  {
+    color: #FFFFFF;
+    line-height: 30px;
+    text-align: center;
+    padding: 50px;
+}
+
+nav {
+    float: right;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+ nav li {
+     display: inline-block;
+     margin-left: 70px;
+     padding:  25px;  
+ }
+
+
+ nav a {
+     text-decoration: none;
+     color: navy;
+     text-transform: uppercase;
+ }
+
+ nav a:hover {
+     color: black;
+ }
 
 #webDevelopment {
     background-color: #F7FDFF;
 }
+
+#caption {
+    position: absolute;
+    left: 823px;
+    top: 350px;
+}
+
+main {
+    margin-bottom: 0;
+}
+
+.displayimage img {
+    margin-bottom: 0;
+}
+
